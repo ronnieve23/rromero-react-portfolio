@@ -1,6 +1,6 @@
 import React from 'react';
 import Navigation from './components/Nav'
-// import Header from './components/Header';
+import About from './components/About'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
     <div>
       <main>
           <Navigation></Navigation>
+          <About></About>
       </main>
     </div>
   );
