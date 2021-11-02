@@ -1,0 +1,8 @@
+h1,p {
+    display: block;
+    font-family: monospace;
+}
+
+p {
+    font-size: larger;
+}
