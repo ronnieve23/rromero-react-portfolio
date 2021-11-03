@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
+import { Form, FloatingLabel } from 'react-bootstrap';
 import { validateEmail } from '../../utils/helpers';
 
 
-function Contact() {
+function ContactMe() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
@@ -38,29 +39,35 @@ function Contact() {
     return (
         <section>
             <h1>Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
-                <div>
+            <Form id="contact-form" onSubmit={handleSubmit}>
+                <Form.Group>
                     <label htmlFor="name">Name:</label>
                     <input type="text" defaultValue={name} name="name" onChange={handleChange} />
-                </div>
-                <div>
+                </Form.Group>
+                <Form.Group>
                     <label htmlFor="email">Email address:</label>
                     <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
-                </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
-                    <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
-                </div>
+                </Form.Group>
+                <FloatingLabel controlId="floatingTextarea2" label="Message">
+                    <Form.Control
+                        as="textarea"
+                        defaultValue = {message}
+                        placeholder="Leave a message here"
+                        style={{ height: '50px' }}
+                    />
+                </FloatingLabel>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
                 <button type="submit">Submit</button>
-            </form>
+            </Form>
 
         </section>
     )
 }
 
-export default Contact;
+export default ContactMe;
+
+
