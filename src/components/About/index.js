@@ -7,7 +7,7 @@ function About() {
         <Container>
             <Row className= "mt-5">
                 <Col>
-                <img src={profilePic} style={{height: '500px'}}></img>
+                <img src={profilePic} style={{height: '500px'}} alt="Ron Romero"></img>
                 </Col>
                 <Col>
                 <h1>About Me</h1>

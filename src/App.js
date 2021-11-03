@@ -1,48 +1,35 @@
 import React, { useState } from 'react';
-import './App.css'
 import About from './components/About'
+import './App.css'
 import Header from './components/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ContactMe from './components/Contact';
+import Contact from './components/Contact';
+
 
 function App() {
-  const [pages] = useState([
+  const [sections] = useState([
     {
       name: 'About',
       component: <About/>
     },
     {
       name:'Contact',
-      component: <ContactMe/>
+      component: <Contact/>
     }
   ]);
-const [currentSection, setCurrentSection] = useState(pages[0]);
-const [contactSelected, setContactSelected] = useState(false);
+const [currentSection, setCurrentSection] = useState(sections[0]);
 
   return (
     <div>
-     <main>
-        {!contactSelected ? (
-          <>
+      <main>
           <Header
-          pages={pages}
-          setCurrentSection = {setCurrentSection}
-          contactSelected={contactSelected}
-          setContactSelected = {setContactSelected}>
+          sections={sections}
+          setCurrentSection = {setCurrentSection}>
           </Header>
           {currentSection.component}
-          <About></About>
-          </>
-        ) : (
-          <ContactMe></ContactMe>
-        )}
       </main>
     </div>
   );
 }
-
-
-
-
 
 export default App;

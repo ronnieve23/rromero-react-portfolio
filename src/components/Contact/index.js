@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Form, FloatingLabel } from 'react-bootstrap';
+import { Form, Button } from 'react-bootstrap';
 import { validateEmail } from '../../utils/helpers';
 
 
-function ContactMe() {
+function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
@@ -38,36 +38,43 @@ function ContactMe() {
 
     return (
         <section>
-            <h1>Contact me</h1>
-            <Form id="contact-form" onSubmit={handleSubmit}>
-                <Form.Group>
-                    <label htmlFor="name">Name:</label>
-                    <input type="text" defaultValue={name} name="name" onChange={handleChange} />
+            <h1 className="text-center">Contact me</h1>
+            <Form id="contact-form" onSubmit={handleSubmit} className="col-lg-6 offset-lg-3">
+                <Form.Group className="mb-2">
+                    <Form.Label htmlFor="name">Name:</Form.Label>
+                    <Form.Control type="text" defaultValue={name} name="name" onChange={handleChange} />
                 </Form.Group>
-                <Form.Group>
-                    <label htmlFor="email">Email address:</label>
-                    <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
+                <Form.Group className="mb-2">
+                    <Form.Label htmlFor="email">Email address:</Form.Label>
+                    <Form.Control type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </Form.Group>
-                <FloatingLabel controlId="floatingTextarea2" label="Message">
+                <Form.Group className="pb-2">
+                    <Form.Label htmlFor="message">Message:</Form.Label>
+
                     <Form.Control
                         as="textarea"
-                        defaultValue = {message}
+                        name="message"
+                        defaultValue={message}
                         placeholder="Leave a message here"
                         style={{ height: '50px' }}
+                        onChange={handleChange}
                     />
-                </FloatingLabel>
+                </Form.Group>
+
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>
                     </div>
                 )}
-                <button type="submit">Submit</button>
+                <div className="d-grid gap-2">
+                    <Button variant="dark" type="submit" size="lg">Submit</Button>
+                </div>
             </Form>
 
         </section>
     )
 }
 
-export default ContactMe;
+export default Contact;
 
 
