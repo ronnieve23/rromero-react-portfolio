@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Image, Col, Row } from 'react-bootstrap';
+import { Container, Image, Col, Row, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NPT from '../../assets/img/NPT.png'
 import deepBlue from '../../assets/img/deepblue.png';
@@ -14,36 +14,62 @@ function Portfolio() {
     return (
         <Container fluid className="mt-2">
             <Row>
-                <Col className>
-                    <Image src={deepBlue} thumbnail style={{objectFit:"cover" }} ></Image>
+                <Col md={6}>
+                    <Image src={deepBlue} thumbnail style={{ height: '250px', width: '100%' }} ></Image>
                     <h4 className="text-center" style={{ fontFamily: "monospace" }}>Deep Blue</h4>
-                    <Container className="text-center">
-                        <a href="https://deep-blue-project-2.herokuapp.com/" className="btn btn-outline-secondary btn-sm m-1" role="button" aria-pressed="true">Visit Deep Blue</a>
-                        <a href="https://github.com/Chasetopher/deep-blue" className="btn btn-outline-secondary btn-sm" role="button" aria-pressed="true">See Github Repo</a>
+                    <Container className="text-center mb-2">
+                        <Button href="https://deep-blue-project-2.herokuapp.com/" variant="dark" className="m-1">Visit Deep Blue</Button>
+                        <Button href="https://github.com/Chasetopher/deep-blue" variant="dark">See Github Repo</Button>
                     </Container>
                 </Col>
-                <Col >
-                    <Image src={NPT} thumbnail style={{objectFit:'cover'}} ></Image>
+                <Col md={6}>
+                    <Image src={NPT} thumbnail style={{ height: '250px', width: '100%' }} ></Image>
                     <h4 className="text-center" style={{ fontFamily: "monospace" }}>National Park Trip Planner</h4>
-                    <Container className="text-center">
-                        <a href="https://miraj00.github.io/National-Park-Trip-Planner/" className="btn btn-outline-secondary btn-sm m-1" role="button" aria-pressed="true">Visit National Park Trip Planner</a>
-                        <a href="https://github.com/miraj00/National-Park-Trip-Planner" className="btn btn-outline-secondary btn-sm" role="button" aria-pressed="true">See Github Repo</a>
-                    </Container>
-                </Col>
-                <Col >
-                    <Image src={techBlog} thumbnail style={{objectFit:'cover'}} ></Image>
-                    <h4 className="text-center" style={{ fontFamily: "monospace" }}>National Park Trip Planner</h4>
-                    <Container className="text-center">
-                        <a href="https://miraj00.github.io/National-Park-Trip-Planner/" className="btn btn-outline-secondary btn-sm m-1" role="button" aria-pressed="true">Visit National Park Trip Planner</a>
-                        <a href="https://github.com/miraj00/National-Park-Trip-Planner" className="btn btn-outline-secondary btn-sm" role="button" aria-pressed="true">See Github Repo</a>
+                    <Container className="text-center mb-2">
+                        <Button href="https://miraj00.github.io/National-Park-Trip-Planner/" variant="dark" className="m-1">Visit National Park Trip Planner</Button>
+                        <Button href="https://github.com/miraj00/National-Park-Trip-Planner" variant="dark">See Github Repo</Button>
                     </Container>
                 </Col>
             </Row>
+            <Row>
+                <Col md={6}>
+                    <Image src={techBlog} thumbnail style={{ height: '250px', width: '100%' }} ></Image>
+                    <h4 className="text-center" style={{ fontFamily: "monospace" }}>Techno Blog</h4>
+                    <Container className="text-center mb-2">
+                        <Button href="https://rromero-techno-blog.herokuapp.com/" variant="dark" className="m-1">Visit Techno Blog</Button>
+                        <Button href="https://github.com/ronnieve23/Techno-Blog" variant="dark">See Github Repo</Button>
+                    </Container>
+                </Col>
+                <Col md={6}>
+                    <Image src={weather} thumbnail style={{ height: '250px', width: '100%' }} ></Image>
+                    <h4 className="text-center" style={{ fontFamily: "monospace" }}>Weather LookUp</h4>
+                    <Container className="text-center mb-2">
+                        <Button href="https://ronnieve23.github.io/WeatherLookUp/" variant="dark" className="m-1">Visit Weather LookUp</Button>
+                        <Button href="https://ronnieve23.github.io/WeatherLookUp/" variant="dark">See Github Repo</Button>
+                    </Container>
+                </Col>
+            </Row>
+            <Row>
+                <Col md={6}>
+                    <Image src={workDayPlanner} thumbnail style={{ height: '250px', width: '100%' }} ></Image>
+                    <h4 className="text-center" style={{ fontFamily: "monospace" }}>WorkDay Planner</h4>
+                    <Container className="text-center mb-2">
+                        <Button href="https://ronnieve23.github.io/WorkDayPlanner/" variant="dark" className="m-1">Visit WorkDay Planner</Button>
+                        <Button href="https://github.com/ronnieve23/WorkDayPlanner" variant="dark">See Github Repo</Button>
+                    </Container>
+                </Col>
+                <Col md={6}>
+                    <Image src={noteTaker} thumbnail style={{ height: '250px', width: '100%' }} ></Image>
+                    <h4 className="text-center" style={{ fontFamily: "monospace" }}>MyNotes</h4>
+                    <Container className="text-center mb-2">
+                        <Button href="https://mynotes-rromero.herokuapp.com/" variant="dark" className="m-1">Visit MyNotes</Button>
+                        <Button href="https://github.com/ronnieve23/MyNotes" variant="dark">See Github Repo</Button>
+                    </Container>
+                </Col>
+            </Row>
+
         </Container>
-
-
     )
-
 }
 
 export default Portfolio
