@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "66f53d82441f8a6437491723411b1daa",
+    "revision": "f387ebda22bcce6379543f39eefce539",
     "url": "/rromero-react-portfolio/index.html"
   },
   {
-    "revision": "a7d2c5d8b6c97e9def57",
+    "revision": "1f9ef4a88bbb9fd500fd",
     "url": "/rromero-react-portfolio/static/css/2.68a81a89.chunk.css"
   },
   {
-    "revision": "c307d8c335129a5af738",
-    "url": "/rromero-react-portfolio/static/css/main.3d3670d9.chunk.css"
+    "revision": "242da1655b9ab3bb4e57",
+    "url": "/rromero-react-portfolio/static/css/main.4bd8ce83.chunk.css"
   },
   {
-    "revision": "a7d2c5d8b6c97e9def57",
-    "url": "/rromero-react-portfolio/static/js/2.fba14aac.chunk.js"
+    "revision": "1f9ef4a88bbb9fd500fd",
+    "url": "/rromero-react-portfolio/static/js/2.6e57f525.chunk.js"
   },
   {
     "revision": "ae6bb62977b25ec73f0509e3cbccba19",
-    "url": "/rromero-react-portfolio/static/js/2.fba14aac.chunk.js.LICENSE.txt"
+    "url": "/rromero-react-portfolio/static/js/2.6e57f525.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75730711f86657204aaa",
-    "url": "/rromero-react-portfolio/static/js/3.f112796f.chunk.js"
+    "revision": "dde46a98347dea3ede01",
+    "url": "/rromero-react-portfolio/static/js/3.89c84916.chunk.js"
   },
   {
-    "revision": "c307d8c335129a5af738",
-    "url": "/rromero-react-portfolio/static/js/main.9c128c18.chunk.js"
+    "revision": "242da1655b9ab3bb4e57",
+    "url": "/rromero-react-portfolio/static/js/main.5a36e978.chunk.js"
   },
   {
-    "revision": "f3d40896c0831efe6797",
-    "url": "/rromero-react-portfolio/static/js/runtime-main.1b962ec5.js"
+    "revision": "e8cf64c62d57876e9d63",
+    "url": "/rromero-react-portfolio/static/js/runtime-main.4a64043f.js"
   },
   {
     "revision": "07d422d1b6752a60157b4067e6a1639d",
