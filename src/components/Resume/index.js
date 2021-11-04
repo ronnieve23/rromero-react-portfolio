@@ -1,5 +1,4 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Col, Container, ListGroup, Row } from "react-bootstrap";
 import '../../components/Resume/resume.css'
 
