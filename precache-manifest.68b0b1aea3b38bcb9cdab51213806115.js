@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51de79ecd2474777508f82869b758970",
+    "revision": "f42cff8a517a9d868dab4d5c17a376e4",
     "url": "/rromero-react-portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rromero-react-portfolio/static/css/2.68a81a89.chunk.css"
   },
   {
-    "revision": "06016ea304ea09109772",
-    "url": "/rromero-react-portfolio/static/css/main.4bd8ce83.chunk.css"
+    "revision": "ead27ee97c049ddd309f",
+    "url": "/rromero-react-portfolio/static/css/main.4cf16140.chunk.css"
   },
   {
     "revision": "1c52fbffab21e3d6f596",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rromero-react-portfolio/static/js/3.89c84916.chunk.js"
   },
   {
-    "revision": "06016ea304ea09109772",
+    "revision": "ead27ee97c049ddd309f",
     "url": "/rromero-react-portfolio/static/js/main.3de7b2c1.chunk.js"
   },
   {
