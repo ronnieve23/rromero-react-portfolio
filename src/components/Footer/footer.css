@@ -1,0 +1,20 @@
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: 100vh;
+}
+
+h3 {
+    font-size: larger;
+}
+
+a{
+    margin-right: 5px;
+    padding: 5px;
+    font-size: larger;
+    color: rgba(255,255,255,.55);
+    text-decoration: none;
+
+}

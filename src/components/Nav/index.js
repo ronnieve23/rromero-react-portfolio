@@ -9,9 +9,9 @@ function Navigation(props) {
         setCurrentSection
     } = props;
     return (
-        <Navbar bg="dark" variant="dark" style={{ fontFamily: "monospace", fontSize: "Larger" }} expand="md" className="ml-auto">
+        <Navbar bg="dark" variant="dark" style={{ fontFamily: "monospace", fontSize: "X-Large" }} expand="md" className="ml-auto">
             <Container className="container-fluid">
-                <Navbar.Brand style={{ fontSize: "Larger" }}>Ron Romero</Navbar.Brand>
+                <Navbar.Brand style={{ fontSize: "Larger" }} onClick={() => setCurrentSection(sections[0])}>Ron Romero</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse>
                     <Nav className="ms-auto">

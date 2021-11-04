@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 import Header from './components/Header';
+import Footer from './components/Footer';
 import Contact from './components/Contact';
 import About from './components/About'
 import Portfolio from './components/Project';
@@ -37,6 +38,7 @@ const [currentSection, setCurrentSection] = useState(sections[0]);
           setCurrentSection = {setCurrentSection}>
           </Header>
           {currentSection.component}
+          <Footer></Footer>
       </main>
     </div>
   );
