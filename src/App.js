@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
-import About from './components/About'
+
 import './App.css'
 import Header from './components/Header';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Contact from './components/Contact';
+import About from './components/About'
+import Portfolio from './components/Project';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -13,9 +15,14 @@ function App() {
       component: <About/>
     },
     {
+      name:'Portfolio',
+      component: <Portfolio/>
+    },
+    {
       name:'Contact',
       component: <Contact/>
     }
+    
   ]);
 const [currentSection, setCurrentSection] = useState(sections[0]);
 
