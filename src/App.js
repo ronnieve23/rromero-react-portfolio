@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import About from './components/About'
 import Portfolio from './components/Project';
+import Resume from './components/Resume';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -25,6 +26,10 @@ function App() {
     {
       name:'Contact',
       component: <Contact/>
+    },
+    {
+      name:'Resume',
+      component:<Resume/>
     }
     
   ]);

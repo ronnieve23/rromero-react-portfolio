@@ -8,6 +8,7 @@ footer{
 
 h3 {
     font-size: larger;
+    font-family: monospace;
 }
 
 a{
@@ -16,5 +17,5 @@ a{
     font-size: larger;
     color: rgba(255,255,255,.55);
     text-decoration: none;
-
+    font-family: monospace;
 }
