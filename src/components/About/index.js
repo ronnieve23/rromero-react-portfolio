@@ -10,7 +10,7 @@ function About() {
                 <Col>
                 <img src={profilePic} style={{height: '450px'}} alt="Ron Romero"></img>
                 </Col>
-                <Col className="col-8">
+                <Col className="col-8 mb-5">
                 <h1>About Me</h1>
                 <p>I currently work as a Technical Support Specialist and I'm currently enrolled in Rutgers Coding Bootcamp hoping to do a career change after the program. This Portfolio showcases the projects we are working on through the course of the Bootcamp.</p>
                 </Col>
