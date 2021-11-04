@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 import Header from './components/Header';
 import Contact from './components/Contact';
 import About from './components/About'
