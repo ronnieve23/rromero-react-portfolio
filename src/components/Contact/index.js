@@ -9,6 +9,10 @@ function Contact() {
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
+    function handleSubmit(e) {
+        e.preventDefault();
+        console.log(formState);
+    }
 
     function handleChange(e) {
 
@@ -32,10 +36,7 @@ function Contact() {
         }
     }
 
-    function handleSubmit(e) {
-        e.preventDefault();
-        console.log(formState);
-    }
+    
 
     return (
         <section>
@@ -43,7 +44,7 @@ function Contact() {
             <Form id="contact-form" onSubmit={handleSubmit} className="col-lg-6 offset-lg-3">
                 <Form.Group className="mb-2">
                     <Form.Label htmlFor="name">Name:</Form.Label>
-                    <Form.Control type="text" defaultValue={name} name="name" onChange={handleChange} />
+                    <Form.Control type="text" defaultValue={name} name="name" onBlur={handleChange} />
                 </Form.Group>
                 <Form.Group className="mb-2">
                     <Form.Label htmlFor="email">Email address:</Form.Label>
@@ -51,14 +52,13 @@ function Contact() {
                 </Form.Group>
                 <Form.Group className="pb-2">
                     <Form.Label htmlFor="message">Message:</Form.Label>
-
                     <Form.Control
                         as="textarea"
                         name="message"
                         defaultValue={message}
                         placeholder="Leave a message here"
                         style={{ height: '50px' }}
-                        onChange={handleChange}
+                        onBlur={handleChange}
                     />
                 </Form.Group>
 
