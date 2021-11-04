@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/rromero-react-portfolio/static/css/main.3d3670d9.chunk.css",
+    "main.js": "/rromero-react-portfolio/static/js/main.9c128c18.chunk.js",
+    "main.js.map": "/rromero-react-portfolio/static/js/main.9c128c18.chunk.js.map",
+    "runtime-main.js": "/rromero-react-portfolio/static/js/runtime-main.1b962ec5.js",
+    "runtime-main.js.map": "/rromero-react-portfolio/static/js/runtime-main.1b962ec5.js.map",
+    "static/css/2.68a81a89.chunk.css": "/rromero-react-portfolio/static/css/2.68a81a89.chunk.css",
+    "static/js/2.fba14aac.chunk.js": "/rromero-react-portfolio/static/js/2.fba14aac.chunk.js",
+    "static/js/2.fba14aac.chunk.js.map": "/rromero-react-portfolio/static/js/2.fba14aac.chunk.js.map",
+    "static/js/3.f112796f.chunk.js": "/rromero-react-portfolio/static/js/3.f112796f.chunk.js",
+    "static/js/3.f112796f.chunk.js.map": "/rromero-react-portfolio/static/js/3.f112796f.chunk.js.map",
+    "index.html": "/rromero-react-portfolio/index.html",
+    "precache-manifest.45664a7e4e20c3579834ecaee397b20d.js": "/rromero-react-portfolio/precache-manifest.45664a7e4e20c3579834ecaee397b20d.js",
+    "service-worker.js": "/rromero-react-portfolio/service-worker.js",
+    "static/css/2.68a81a89.chunk.css.map": "/rromero-react-portfolio/static/css/2.68a81a89.chunk.css.map",
+    "static/css/main.3d3670d9.chunk.css.map": "/rromero-react-portfolio/static/css/main.3d3670d9.chunk.css.map",
+    "static/js/2.fba14aac.chunk.js.LICENSE.txt": "/rromero-react-portfolio/static/js/2.fba14aac.chunk.js.LICENSE.txt",
+    "static/media/NPT.png": "/rromero-react-portfolio/static/media/NPT.07d422d1.png",
+    "static/media/WorkDayPlanner.png": "/rromero-react-portfolio/static/media/WorkDayPlanner.3d8b5bdd.png",
+    "static/media/deepblue.png": "/rromero-react-portfolio/static/media/deepblue.9a213da7.png",
+    "static/media/notetaker.png": "/rromero-react-portfolio/static/media/notetaker.97727807.png",
+    "static/media/ronromero.jpeg": "/rromero-react-portfolio/static/media/ronromero.31ebdd02.jpeg",
+    "static/media/the-tech-blog.png": "/rromero-react-portfolio/static/media/the-tech-blog.dd3282f0.png",
+    "static/media/weatherlookup.png": "/rromero-react-portfolio/static/media/weatherlookup.5172901b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b962ec5.js",
+    "static/css/2.68a81a89.chunk.css",
+    "static/js/2.fba14aac.chunk.js",
+    "static/css/main.3d3670d9.chunk.css",
+    "static/js/main.9c128c18.chunk.js"
+  ]
+}
