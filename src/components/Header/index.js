@@ -1,6 +1,6 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from "../Nav";
+import Navigation from "../Navigation";
 
 function Header (props){
     const {
