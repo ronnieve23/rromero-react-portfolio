@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# React-Portfolio ![MIT BADGE](https://img.shields.io/badge/License-MIT-blue.svg)
+ 
+ ## Description
+This Repository contains code for Rutgers Coding Bootcamp's Challenge 20 "React Challenge: React Portfolio". 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+For this this week's challenge, we were tasked to create a portfolio using React to showcase the projects we've done in the bootcamp to date.
 
-## Available Scripts
+The application will be using the React Javascript Library and will be deployed with Github Pages.
 
-In the project directory, you can run:
+### [CLICK HERE TO VISIT THE PORTFOLIO](https://ronnieve23.github.io/rromero-react-portfolio/)
 
-### `npm start`
+ ## Table Of Contents
+  * [Description](#description)
+  * [Screenshots](#screenshots)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+  * [License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Here are some screen shots of the portfolio website:
 
-### `npm test`
+![Portfolio Page Screenshot](./src/assets/img/screenshots/portfolio.png)
+![About Me Page Screenshot](./src/assets/img/screenshots/aboutme.png)
+![Resume Page Screenshot](./src/assets/img/screenshots/resume.png)
+![Contact Page Screenshot](./src/assets/img/screenshots/contact.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+The app is already deployed and no installation is necessary! 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can simply go to https://ronnieve23.github.io/rromero-react-portfolio/ to check it out.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+However, if you would wish to configure the code, please do the following:
+1. Download and install Node.js from https://nodejs.org/en/download/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Clone the repository OR download the code from 
+https://github.com/ronnieve23/rromero-react-portfolio
+3. Navigate to where you saved the downloaded/cloned repository; Right click on the repostiory folder (rromero-react-portfolio) and select "New Terminal at folder". 
 
-### `npm run eject`
+4. Inside the terminal, type "npm i" and hit enter. Wait for the installation to finish.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+5. Open the repository inside VS Code to start editing.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+Click on the different items in the Navigation bar to check out the different pages of the portfolio!
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contributing
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+ You can contribute to the development of the app by sending suggestions to Ronnieve_Romero@yahoo.com
 
-## Learn More
+ ## Questions 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  For any questions, please feel free to reach out to me at the following:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  Github: https://github.com/ronnieve23
 
-### Code Splitting
+  Email: Ronnieve_Romero@yahoo.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+ ## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ ![MIT BADGE](https://img.shields.io/badge/License-MIT-blue.svg)
 
-### Making a Progressive Web App
+  The express package used in this app is licensed under the MIT license.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### Advanced Configuration
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
