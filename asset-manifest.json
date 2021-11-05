@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rromero-react-portfolio/static/css/main.944e8862.chunk.css",
-    "main.js": "/rromero-react-portfolio/static/js/main.7f1c3595.chunk.js",
-    "main.js.map": "/rromero-react-portfolio/static/js/main.7f1c3595.chunk.js.map",
+    "main.js": "/rromero-react-portfolio/static/js/main.358145bd.chunk.js",
+    "main.js.map": "/rromero-react-portfolio/static/js/main.358145bd.chunk.js.map",
     "runtime-main.js": "/rromero-react-portfolio/static/js/runtime-main.4a64043f.js",
     "runtime-main.js.map": "/rromero-react-portfolio/static/js/runtime-main.4a64043f.js.map",
     "static/css/2.68a81a89.chunk.css": "/rromero-react-portfolio/static/css/2.68a81a89.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.89c84916.chunk.js": "/rromero-react-portfolio/static/js/3.89c84916.chunk.js",
     "static/js/3.89c84916.chunk.js.map": "/rromero-react-portfolio/static/js/3.89c84916.chunk.js.map",
     "index.html": "/rromero-react-portfolio/index.html",
-    "precache-manifest.92d1d76ed8a684ae4de24aec4cfe88c0.js": "/rromero-react-portfolio/precache-manifest.92d1d76ed8a684ae4de24aec4cfe88c0.js",
+    "precache-manifest.2d30aa49b966daaa39410f8a71760dbc.js": "/rromero-react-portfolio/precache-manifest.2d30aa49b966daaa39410f8a71760dbc.js",
     "service-worker.js": "/rromero-react-portfolio/service-worker.js",
     "static/css/2.68a81a89.chunk.css.map": "/rromero-react-portfolio/static/css/2.68a81a89.chunk.css.map",
     "static/css/main.944e8862.chunk.css.map": "/rromero-react-portfolio/static/css/main.944e8862.chunk.css.map",
@@ -29,6 +29,6 @@
     "static/css/2.68a81a89.chunk.css",
     "static/js/2.9d4f8d92.chunk.js",
     "static/css/main.944e8862.chunk.css",
-    "static/js/main.7f1c3595.chunk.js"
+    "static/js/main.358145bd.chunk.js"
   ]
 }

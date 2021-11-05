@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/rromero-react-portfolio/precache-manifest.92d1d76ed8a684ae4de24aec4cfe88c0.js"
+  "/rromero-react-portfolio/precache-manifest.2d30aa49b966daaa39410f8a71760dbc.js"
 );
 
 self.addEventListener('message', (event) => {
