@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/rromero-react-portfolio/static/css/main.4cf16140.chunk.css",
-    "main.js": "/rromero-react-portfolio/static/js/main.3de7b2c1.chunk.js",
-    "main.js.map": "/rromero-react-portfolio/static/js/main.3de7b2c1.chunk.js.map",
+    "main.css": "/rromero-react-portfolio/static/css/main.944e8862.chunk.css",
+    "main.js": "/rromero-react-portfolio/static/js/main.7f1c3595.chunk.js",
+    "main.js.map": "/rromero-react-portfolio/static/js/main.7f1c3595.chunk.js.map",
     "runtime-main.js": "/rromero-react-portfolio/static/js/runtime-main.4a64043f.js",
     "runtime-main.js.map": "/rromero-react-portfolio/static/js/runtime-main.4a64043f.js.map",
     "static/css/2.68a81a89.chunk.css": "/rromero-react-portfolio/static/css/2.68a81a89.chunk.css",
-    "static/js/2.2b013f0e.chunk.js": "/rromero-react-portfolio/static/js/2.2b013f0e.chunk.js",
-    "static/js/2.2b013f0e.chunk.js.map": "/rromero-react-portfolio/static/js/2.2b013f0e.chunk.js.map",
+    "static/js/2.9d4f8d92.chunk.js": "/rromero-react-portfolio/static/js/2.9d4f8d92.chunk.js",
+    "static/js/2.9d4f8d92.chunk.js.map": "/rromero-react-portfolio/static/js/2.9d4f8d92.chunk.js.map",
     "static/js/3.89c84916.chunk.js": "/rromero-react-portfolio/static/js/3.89c84916.chunk.js",
     "static/js/3.89c84916.chunk.js.map": "/rromero-react-portfolio/static/js/3.89c84916.chunk.js.map",
     "index.html": "/rromero-react-portfolio/index.html",
-    "precache-manifest.68b0b1aea3b38bcb9cdab51213806115.js": "/rromero-react-portfolio/precache-manifest.68b0b1aea3b38bcb9cdab51213806115.js",
+    "precache-manifest.92d1d76ed8a684ae4de24aec4cfe88c0.js": "/rromero-react-portfolio/precache-manifest.92d1d76ed8a684ae4de24aec4cfe88c0.js",
     "service-worker.js": "/rromero-react-portfolio/service-worker.js",
     "static/css/2.68a81a89.chunk.css.map": "/rromero-react-portfolio/static/css/2.68a81a89.chunk.css.map",
-    "static/css/main.4cf16140.chunk.css.map": "/rromero-react-portfolio/static/css/main.4cf16140.chunk.css.map",
-    "static/js/2.2b013f0e.chunk.js.LICENSE.txt": "/rromero-react-portfolio/static/js/2.2b013f0e.chunk.js.LICENSE.txt",
+    "static/css/main.944e8862.chunk.css.map": "/rromero-react-portfolio/static/css/main.944e8862.chunk.css.map",
+    "static/js/2.9d4f8d92.chunk.js.LICENSE.txt": "/rromero-react-portfolio/static/js/2.9d4f8d92.chunk.js.LICENSE.txt",
     "static/media/NPT.png": "/rromero-react-portfolio/static/media/NPT.07d422d1.png",
     "static/media/WorkDayPlanner.png": "/rromero-react-portfolio/static/media/WorkDayPlanner.3d8b5bdd.png",
     "static/media/deepblue.png": "/rromero-react-portfolio/static/media/deepblue.9a213da7.png",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.4a64043f.js",
     "static/css/2.68a81a89.chunk.css",
-    "static/js/2.2b013f0e.chunk.js",
-    "static/css/main.4cf16140.chunk.css",
-    "static/js/main.3de7b2c1.chunk.js"
+    "static/js/2.9d4f8d92.chunk.js",
+    "static/css/main.944e8862.chunk.css",
+    "static/js/main.7f1c3595.chunk.js"
   ]
 }
