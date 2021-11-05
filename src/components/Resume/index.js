@@ -32,8 +32,8 @@ function Resume() {
                     <h3> Back End </h3>
                     <ListGroup as="ul">
                         <ListGroup.Item as="li">MySQL,Sequelize</ListGroup.Item>
-                        <ListGroup.Item as="li">Mongoose, MongoDB</ListGroup.Item>
-                        <ListGroup.Item as="li">APIs, REST</ListGroup.Item>
+                        <ListGroup.Item as="li">Mongoose,MongoDB</ListGroup.Item>
+                        <ListGroup.Item as="li">APIs,REST</ListGroup.Item>
                         <ListGroup.Item as="li">Node</ListGroup.Item>
                         <ListGroup.Item as="li">Express</ListGroup.Item>
                     </ListGroup>
