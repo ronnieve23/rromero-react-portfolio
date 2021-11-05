@@ -39,7 +39,7 @@ function Contact() {
     
 
     return (
-        <section>
+        <section className="mb-5">
             <h1 className="text-center">Contact me</h1>
             <Form id="contact-form" onSubmit={handleSubmit} className="col-lg-6 offset-lg-3">
                 <Form.Group className="mb-2">
